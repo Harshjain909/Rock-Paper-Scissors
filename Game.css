@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+h1{
+    background-color:rgb(73, 22, 121) ;
+    text-align: center;
+    margin: 0;
+    height: 5rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.images{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    height: 180px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 3rem;
+}
+
+.img:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+
+#score{
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+#score p{
+    margin:0.5rem;
+} 
+
+h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    background-color: azure;
+    color:chartreuse;
+}
+
